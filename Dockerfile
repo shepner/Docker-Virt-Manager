@@ -21,8 +21,9 @@ RUN \
  echo "**** app install ****" && \
  apt-get update && \
  apt-get install -y --no-install-recommends \
-        virt-manager \
-        ssh-askpass-gnome
+#        virt-manager \
+#        ssh-askpass-gnome
+        firefox
 
 RUN \
  dbus-uuidgen > /etc/machine-id && \
