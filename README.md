@@ -24,4 +24,17 @@ sudo docker run -it \
   test
 ```
 
+``` shell
+sudo docker run \
+  --name=calibre \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ="America/Chicago" \
+  -p 8080:8080 \
+  -p 8901:8081 \
+  -v /home/shepner/calibre:/config \
+  linuxserver/calibre
+```
+
+
 
