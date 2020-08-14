@@ -11,9 +11,7 @@ Fetch and build
 ``` shell
 rm -Rf ./Docker-Virt-Manager
 git clone https://github.com/shepner/Docker-Virt-Manager.git
-
-cd ./Docker-Virt-Manager
-sudo docker build -t test .
+sudo docker build -t test ./Docker-Virt-Manager
 ```
 
 Run
