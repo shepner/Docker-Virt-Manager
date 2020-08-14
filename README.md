@@ -7,15 +7,12 @@ Leveraging the [linuxserver.io](https://www.linuxserver.io/) [docker-calibre rep
 End-goal of running [virt-manager](https://virt-manager.org/)
 
 
-Fetch
+Fetch and build
 ``` shell
+rm -Rf ./Docker-Virt-Manager
 git clone https://github.com/shepner/Docker-Virt-Manager.git
-```
 
-Build
-``` shell
 cd ./Docker-Virt-Manager
-
 sudo docker build -t test .
 ```
 
