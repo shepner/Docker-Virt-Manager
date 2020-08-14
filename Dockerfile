@@ -20,8 +20,9 @@ RUN \
 RUN \
  echo "**** app install ****" && \
  apt-get update && \
- apt-get install -y \
-        firefox
+ apt-get install -y --no-install-recommends \
+        virt-manager \
+        ssh-askpass-gnome
 
 RUN \
  dbus-uuidgen > /etc/machine-id && \
