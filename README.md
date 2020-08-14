@@ -9,16 +9,20 @@ End-goal of running [virt-manager](https://virt-manager.org/)
 
 Fetch
 ``` shell
-
+git clone https://github.com/shepner/Docker-Virt-Manager.git
 ```
 
 Build
 ``` shell
+cd ./Docker-Virt-Manager
+
 sudo docker build -t test .
 ```
 
 Run
 ``` shell
+mkdir -P ./Docker-Virt-Manager/config
+
 sudo docker run -it \
   -p 8080:8080 \
   -v /home/shepner/test/config:/config \
