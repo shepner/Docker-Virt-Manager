@@ -16,7 +16,7 @@ sudo docker build -t test ./Docker-Virt-Manager
 
 Run
 ``` shell
-mkdir -P ./Docker-Virt-Manager/config
+mkdir -p ./Docker-Virt-Manager/config
 
 sudo docker run -it \
   -p 8080:8080 \
