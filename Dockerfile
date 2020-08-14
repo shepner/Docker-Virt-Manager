@@ -15,7 +15,7 @@ RUN \
         python-xdg \
         ttf-wqy-zenhei \
         wget \
-        xz-utils && \
+        xz-utils
 
 RUN \
  echo "**** app install ****" && \
