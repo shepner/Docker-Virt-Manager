@@ -18,4 +18,4 @@ s6-setuidgid abc
 s6-env DISPLAY=:1 HOME=/config
 
 # Install application
-/usr/bin/firefox $CLI_ARGS
+/usr/bin/virt-manager
